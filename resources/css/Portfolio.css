@@ -1,0 +1,821 @@
+.portfolioContainer{
+    min-width: 90% !important;    /* important*/
+    position: relative;
+    margin-top: 3.9vh;
+}
+
+
+
+.h4 h4{
+    /*
+    font-size: 24.84px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: center;
+    width: 122px;
+    height: 30px;
+    padding: 0%;
+
+
+    background-image: url("../img/img_section_contact.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    top: -30px;
+    right: 23%;
+    z-index: 1;
+    
+    margin: 0%;
+
+    right: 28%;*/
+    font-size: 24.84px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: center;
+    width: 122px;
+    height: 30px;
+    padding: 0%;
+
+
+    background-image: url("../img/img_section_contact.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    top: -30px;
+   /* right: 23% !important;*/
+    z-index: 1;
+    position: absolute;
+    margin: 0%;
+
+   /* right: 28%;*/
+   right: 23% ;
+
+}
+
+
+/*first*/
+.first{
+    /*test*/
+    position: relative;
+}
+
+.playerContainer{
+    background-color: #ffffff;
+    position: relative;
+
+
+    /*    
+    width: 569px ;
+    width: 475px ;
+*/
+    
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 0%;
+    
+
+    border-left: 1px solid #d7d7d7;
+    border-top: 1px solid #d7d7d7;
+
+/*    max-width: 475px ; */
+    width: 475px ; 
+}
+
+.audioPlayer {
+    background-color: #ffffff;
+    
+
+   width: 95%;
+   max-width: 475px ; /*testi*/
+   
+}
+
+
+/*in player*/
+.textContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* other styles as needed */
+
+
+
+
+    height: 65px;
+    padding-top: 15px;
+
+    /*width:500px; this */
+    max-width: 475px ; /*testi*/
+    width: 475px;
+}
+
+.nowPlayingText {
+    margin-left: 19px;
+
+    font-size: 20.7px;
+    color: #979797;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    margin-left: 5px !important;
+   
+    
+}
+
+.songElements{
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5%;
+
+    margin-top: 4px;
+    margin-right: 50px;
+
+    color: #b7b7b7;
+}
+
+
+/*this is invisible box that helps to keep songs at certain point without putting them position absolute*/
+.SongParent{
+    /* og height: 280px; */
+    min-height: 280px; 
+  
+   /* min-height: 400px; */ 
+
+   /* margin-bottom: clamp(50px, 0px, 55px );*/
+ /*  margin-bottom: min(50px);*/
+}
+
+.songExpContainer {
+    background-color: #ffffff;
+    text-align: center;
+    
+   /*width:95%;*/
+    /*max-width: 559px;*/
+   /*min-height: 250px; */
+   /*width: 450px ;   this */
+
+    margin-top: 8px;
+    
+    padding: 0;
+    
+    border: 1px solid #d7d7d7;
+
+   /* min-height: 150px;*/
+   min-height: 100%;
+
+
+
+    width: 450px ; 
+
+
+}
+
+
+.upperSongExp {
+    position: relative;
+    border: 1px solid #d7d7d7;
+
+}
+.otherSongName {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b7b7b7;
+    
+
+    font-size:  16.4px;
+    
+    margin-bottom: 0px;
+    
+    margin-top: 15px;
+    font-weight: 550;
+
+    
+
+}
+ .adjectives {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b1b1b1;
+    font-size:  14.35px;
+    /*margin-top: 13px;*/
+    padding-bottom: 15px;
+  
+    
+    
+    margin-bottom: 0%;
+    margin-top: 4px;
+}
+
+
+/*.adjectives:not(:last-child){
+    border-bottom: 1px solid #d2d2d2;
+}*/
+.songExp {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+    padding-left: 31px;
+    padding-right: 31px;
+    text-align: left;
+    
+    padding-top: 25px;
+    color: #b1b1b1;
+   
+}
+.songExpContainer img {
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+
+
+
+.songsContainer {
+    /*background-color: #ffffff;*/
+    
+    text-align: center;
+
+    width: 90%;
+   
+
+    margin-top: 16px;
+    
+    
+    display: flex;
+    flex-direction: column;
+
+
+    /*test*/
+   
+
+
+    
+    
+
+    
+}
+
+.popOutDiv{
+    
+    background-color: #ffffff;
+    border: 1px solid #d7d7d7;
+    
+    margin-bottom: 1px;
+    
+    position: relative;
+    width: 450px ; 
+    
+
+
+
+}
+
+.speaker{
+    background-image: url("../img/img_speaker.png");
+    width: 23px;
+    height: 24px;
+    left: 24px;
+    top: 30px;
+    position: absolute;
+   
+}
+
+
+
+.second{
+    min-width: 500px; /*helps keep its children at center and other albums on place*/
+
+    
+   
+}
+
+
+/*second*/
+.albumImgContainer{
+
+    position: relative;
+    
+    /* try these off as well*/
+    display: flex;
+    justify-content: center;
+
+   
+    margin-top: 15px;
+    height: 490px;
+
+    min-width: 500px !important;
+    width: 500px;
+    left: 50%; 
+    transform: translate(-50%, 0%);
+
+}
+
+.nowAlbum{
+    z-index: 2;
+    position: relative;
+
+
+}
+
+.leftAlbum, .rightAlbum {
+    position: absolute;
+    height: 410px;
+    width: 410px;
+    top: 40px;
+
+}
+
+
+.leftAlbum {
+   /* right: 23%; 
+    right: 35%;*/
+
+    right: 30%;
+}
+
+.rightAlbum {
+    /*left: 23%; 
+    left: 35%;*/
+
+    /*right: 55px !important; */
+   
+    left: 30%;
+}
+
+
+.leftArrow {
+    position: absolute;
+    top: 50%;
+    width: 43px;
+    height: 30px;
+    z-index: 3;
+  /*  left: -11%;
+    left: 8px;*/
+
+    left: 6%;
+}
+
+.rightArrow {
+    position: absolute;
+    top: 50%;
+    width: 43px;
+    height: 30px;
+    z-index: 3;
+
+/*
+    right: -11%;
+    right: 8px;
+    
+    right: 5%;
+*/
+right: 6%;
+}
+
+
+.albumNameContainer{
+    margin-top: 20px;
+    background-color: #ffffff;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18.63px;
+   /* min-width: 490px; test, if its ok off */
+    height: 52px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    color: #b1b1b1;
+    
+
+    border: 1px solid #d2d2d2;
+
+    padding-top: 10px;
+
+    position: relative;
+    width: 490px;
+    left: 50%; 
+    transform: translate(-50%, 0%);
+    
+}
+
+
+.albumAboutContainer {
+    position: relative;
+    margin-top: 16px;
+    background-color: #ffffff;
+    width: 490px;
+    min-height: 150px;
+    max-width: 490px;
+    
+    text-align:left;
+
+    border: 1px solid #d2d2d2;
+    color: #b1b1b1;
+
+    padding-top: 25px;
+
+    margin-bottom: 30px;
+    min-height: 190px;
+    
+
+    position: relative;
+    width: 490px;
+    left: 50%; 
+    transform: translate(-50%, 0%);
+}
+
+.albumAboutContainer img {
+    position: absolute;
+    top: -6.5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    
+    
+}
+
+
+
+.albumAboutP {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  14.49px;
+    
+    
+    text-align: left;
+
+    padding-left: 21px;
+    padding-right: 21px;
+   
+}
+
+
+/*third*/
+
+.testParent{
+    width: 350px !important; /*helps to keep albumList in this width*/
+}
+
+
+
+.albumList {
+    background-color: #ffffff;
+    text-align: center; 
+    width: 350px !important;
+    min-height: 140px;  /*needs to be adjusted when more years*/
+    
+   /* margin-left: 25px; */
+    /*player has extra 30px, so lets add here as well*/
+   /* margin-left: 55px;*/
+
+    margin-top: 55px;
+    position: relative;
+
+    padding: 0px;
+    padding-bottom: 8px;
+
+    border-top: 1px solid #f3f3f3;
+    border-right: 2px solid #d7d7d7;
+    border-bottom: 1px solid #f3f3f3;
+
+    
+}
+
+.albumList img {
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    
+   
+}
+
+.albumYear {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b7b7b7;
+    font-size: 18.63px;
+    
+    padding-bottom: 9px;
+    margin: auto;
+    width: 25%;
+    align-self: center;
+    margin-bottom: 0px;
+
+    border-bottom: 1px solid #d2d2d2;
+}
+.albumList h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18.63px;
+    color: #bababa;
+    margin-top: 16px;
+    
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+
+
+    
+}
+/*Individual album names*/
+.albumList p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18.63px;
+    color: #b7b7b7;
+
+    margin-bottom: 0%;
+    padding-top: 0%;
+    
+    /*margin-top: 16px;*/
+    margin-top: 6px;
+    
+}
+
+.albumList p:nth-of-type(-n + 2){
+    
+    margin-top: 19px;
+}
+
+
+
+.treePortfolio {
+
+    
+    width: 100%;
+ 
+
+    /*maybe min-height: 180px;*/
+    
+    min-height: 180px;
+    flex: 1;
+
+
+    
+
+    bottom: 0px;  
+
+}
+
+.treeInPortfolio{
+    background-image:url('../img/img_footer_tree.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+    height: 180px;
+   
+
+
+}
+
+
+
+
+
+
+/*media queries*/
+
+@media screen and (min-width:360px) and (max-width:630px){
+
+    .portfolioContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .first{
+            
+        }
+
+
+
+    .playerContainer, .songExpContainer, .songsContainer{
+
+        width: 340px !important;
+
+    }
+  
+    .popOutDiv{
+
+        width: 340px;
+        
+    }
+    .speaker{
+       /*   
+
+        top: 3px;
+        width: 15px;
+        height: 16px;
+        left: 3px;*/
+        opacity: 0;
+    }
+
+
+    
+    .nowPlayingText{
+     
+        font-size: 18.7px;
+    }
+    .songElements{ /*unsure of this approach, other way to put margin-right: 120px, any other?*/
+       position: absolute;
+       right: -50px;
+       
+    }
+
+
+
+    /*second */
+    .second{
+
+        
+       
+    }
+
+    .albumImgContainer{
+        width: 100% !important;
+        height: 100%;
+        
+       /* left: 50%; 
+        transform: translate(-50%, 0%);*/
+        margin-left: -5px !important;
+    }
+    .nowAlbum{
+        width: 55%;
+        height: 55%;
+
+        
+       
+    }
+    .leftAlbum, .rightAlbum{
+        width: 50%;
+        height: 69%;
+    }
+
+    .rightAlbum{
+        left: 150px !important; 
+   
+    }
+    .leftAlbum{
+        right: 150px !important;
+    }
+
+
+    .rightArrow{
+        right: 75px !important;
+    }
+    .leftArrow{
+        left: 75px !important;
+    }
+
+
+
+    .albumAboutContainer{
+        width: 70%;
+
+        margin-left: -5px;
+    }
+    .albumNameContainer{
+        max-width: 70% !important;
+
+        margin-left: -5px;
+        
+
+
+    }
+
+}
+
+
+
+/*for select <520px*/
+@media screen and (max-width: 499px) {
+    .speaker{
+        background-image: url("../img/img_list_select.png") !important;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 1;
+    }
+} 
+
+
+
+
+
+@media screen and (max-width: 1631px) {
+
+    .portfolioContainer .row{
+        flex-direction: column !important;
+
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .first{
+        order: 3;
+
+
+
+
+    }
+
+    .h4 h4{
+        right: 5% ;
+    }
+
+
+    .playerContainer, .songExpContainer, .songsContainer{
+        position: relative;
+        width: 490px;
+        left: 50%; 
+        transform: translate(-50%, 0%);
+    }
+
+    .second{
+       order: 2;
+       margin-bottom: 20px !important;
+       padding-right: 0px !important;
+    }
+
+
+    .rightArrow{
+        right: -55px;
+    }
+    .leftArrow{
+        left: -55px;
+    }
+
+    .rightAlbum{
+        left: 25%;
+    }
+    .leftAlbum{
+        right: 25%;
+    }
+
+
+
+    .third{
+        order: 1;
+        margin-bottom: 20px !important;
+    }
+}
+
+
+@media screen and (min-width: 1921px) {
+    .h4 h4{
+        right: 25% ;
+    }
+
+
+    .portfolioContainer{
+        
+     
+    }
+
+    .first{
+        min-width: 500px !important;
+        max-width: 550px !important;
+    }
+
+    .second{
+
+       /* max-width: 650px !important;  helps the first to be more center with specific px in second*/
+       max-width: 650px !important;
+    }
+
+    .rightArrow{
+        right: 0px;
+    }
+    .leftArrow{
+        left: 0px;
+    }
+
+
+
+}
+
+/*test for portfolio flag             
+28.4
+*/
+@media screen and (min-width: 1632px) and (max-width: 2400px){
+    .flag{
+
+ 
+        
+        position: fixed;
+
+        left: 0%;
+        z-index: 10;
+        width: 140px;
+        
+    }
+
+    .flag p{
+        display: none;
+    }
+
+}
